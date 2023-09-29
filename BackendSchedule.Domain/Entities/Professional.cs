@@ -24,10 +24,6 @@ namespace BackendSchedule.Domain.Entities
 
         private void ValidateDomain(string name, string email, string password, string phone)
         {
-            DomainExceptionValidation.When(string.IsNullOrEmpty(name), "Invalid Name value");
-            DomainExceptionValidation.When(string.IsNullOrEmpty(email), "Invalid Email value");
-            DomainExceptionValidation.When(string.IsNullOrEmpty(password), "Invalid Password value");
-            DomainExceptionValidation.When(string.IsNullOrEmpty(phone), "Invalid Phone value");
 
             Name = name;
             Email = email;

@@ -21,9 +21,7 @@ namespace BackendSchedule.Domain.Entities
 
         private void ValidateDomain(string name, Professional professional, TimeSpan duration, double? price)
         {
-            DomainExceptionValidation.When(string.IsNullOrEmpty(name), "Invalid Name value");
             DomainExceptionValidation.When(duration == TimeSpan.Zero, "Invalid Duration value");
-            DomainExceptionValidation.When(price < 0, "Invalid Price value");
 
             Name = name;
             Professional = professional;

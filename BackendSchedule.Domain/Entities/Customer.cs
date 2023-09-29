@@ -1,11 +1,10 @@
-﻿using BackendSchedule.Domain.Validation;
-namespace BackendSchedule.Domain.Entities
+﻿namespace BackendSchedule.Domain.Entities
 {
     public sealed class Customer
     {
         public Customer(string name, string phone, string? email)
         {
-            ValidateDomain(name, email, phone);
+            ValidateDomain(name, phone, email);
         }
 
         public string Name { get; private set; }
@@ -14,13 +13,9 @@ namespace BackendSchedule.Domain.Entities
 
         private void ValidateDomain(string name, string phone, string? email)
         {
-            DomainExceptionValidation.When(string.IsNullOrEmpty(name), "Invalid Name value");
-            DomainExceptionValidation.When(string.IsNullOrEmpty(phone), "Invalid Phone value");
-
             Name = name;
             Email = email;
             Phone = phone;
-
         }
 
     }
