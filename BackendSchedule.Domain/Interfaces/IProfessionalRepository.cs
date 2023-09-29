@@ -4,10 +4,10 @@ namespace BackendSchedule.Domain.Interfaces
 {
     public interface IProfessionalRepository
     {
-        Task<IEnumerable<Appointment>> GetAll();
-        Task<Appointment> GetById(int id);
-        Task<Appointment> Create(Appointment appointment);
-        Task<Appointment> Update(Appointment appointment);
-        Task<Appointment> DeleteById(int id);
+        Task<IEnumerable<Professional>> GetAll();
+        Task<Professional> GetById(int id);
+        Task<Professional> Create(Professional Professional);
+        Task<Professional> Update(Professional Professional);
+        Task<Professional> DeleteById(int id);
     }
 }
