@@ -6,8 +6,8 @@ namespace BackendSchedule.Domain.Interfaces
     {
         Task<IEnumerable<Scheduling>> GetAll();
         Task<Scheduling> GetById(int id);
-        Task<Scheduling> Create(Scheduling Scheduling);
-        Task<Scheduling> Update(Scheduling Scheduling);
-        Task<Scheduling> DeleteById(int id);
+        Task<Scheduling> Create(Scheduling scheduling);
+        Task<Scheduling> Update(Scheduling scheduling);
+        Task<Scheduling> Delete(Scheduling scheduling);
     }
 }

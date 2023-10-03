@@ -13,6 +13,11 @@
 
         private void ValidateDomain(string name, string phone, string? email)
         {
+            if (email == "")
+            {
+                email = null;
+            }
+
             Name = name;
             Email = email;
             Phone = phone;

@@ -16,6 +16,7 @@ namespace BackendSchedule.Domain.Entities
         }
         public string Name { get; private set; }
         public Professional Professional { get; private set; }
+        public int ProfessionalId { get; private set; }
         public TimeSpan Duration { get; private set; }
         public double? Price { get; private set; }
 
@@ -24,6 +25,7 @@ namespace BackendSchedule.Domain.Entities
             DomainExceptionValidation.When(duration == TimeSpan.Zero, "Invalid Duration value");
 
             Name = name;
+            ProfessionalId = professional.Id;
             Professional = professional;
             Duration = duration;
             Price = price;

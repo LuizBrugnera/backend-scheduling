@@ -18,6 +18,7 @@ namespace BackendSchedule.Domain.Entities
 
 
         public Professional Professional { get; private set; }
+        public int ProfessionalId { get; private set; }
         public TimePeriods TimePeriods { get; private set; }
         public bool WorkDay { get; private set; }
         public List<Appointment> AppointmentList { get; private set; } = new List<Appointment>();
@@ -33,8 +34,8 @@ namespace BackendSchedule.Domain.Entities
             DomainExceptionValidation.When(startAfternoon.HasValue && endAfternoon.HasValue && startAfternoon >= endAfternoon, "StartAfternoon must be less than EndAfternoon!");
             DomainExceptionValidation.When(startNight.HasValue && endNight.HasValue && startNight >= endNight, "StartNight must be less than EndNight!");
 
+            ProfessionalId = professional.Id;
             Professional = professional;
-
             TimePeriods = new TimePeriods(startMorning, endMorning, startAfternoon, endAfternoon, startNight, endNight);
         }
 

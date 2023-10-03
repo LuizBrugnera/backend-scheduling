@@ -8,6 +8,6 @@ namespace BackendSchedule.Domain.Interfaces
         Task<Appointment> GetById(int id);
         Task<Appointment> Create(Appointment appointment);
         Task<Appointment> Update(Appointment appointment);
-        Task<Appointment> DeleteById(int id);
+        Task<Appointment> Delete(Appointment appointment);
     }
 }

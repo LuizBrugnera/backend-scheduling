@@ -18,7 +18,9 @@ namespace BackendSchedule.Domain.Entities
         }
 
         public Scheduling Scheduling { get; private set; }
+        public int SchedulingId { get; private set; }
         public Work Work { get; private set; }
+        public int WorkId { get; private set; }
         public Customer Customer { get; private set; }
         public TimeSpan StartTime { get; private set; }
         public TimeSpan EndTime { get; private set; }
