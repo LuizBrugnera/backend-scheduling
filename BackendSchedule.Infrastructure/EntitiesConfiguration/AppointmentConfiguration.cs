@@ -31,11 +31,11 @@ namespace BackendSchedule.Infrastructure.EntitiesConfiguration
             });
 
             builder.HasData(
-                new Appointment(new Scheduling(new Professional(1, "Jhon Carlos", "jhon@gmail.com", "jhon123", "54996054176"),
+                new Appointment(1, new Scheduling(new Professional(1, "Jhon Carlos", "jhon@gmail.com", "jhon123", "54996054176"),
                 new TimeSpan(10, 0, 0), new TimeSpan(12, 0, 0), null, null, null, null, true),
                 new Work("Corte de Cabelo", new Professional(1, "Jhon Carlos", "jhon@gmail.com", "jhon123", "54996054176"), TimeSpan.FromHours(1), 25.0),
-                new Customer("Jane Doe", "54996054179", "jane@gmail.com"),
-                new TimeSpan(10, 30, 0))
+                new TimeSpan(10, 30, 0),
+                "Jane Doe", "jane@gmail.com", "54996054179")
             );
         }
     }
