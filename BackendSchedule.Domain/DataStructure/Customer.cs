@@ -1,4 +1,4 @@
-﻿namespace BackendSchedule.Domain.Entities
+﻿namespace BackendSchedule.Domain.DataStructure
 {
     public sealed class Customer
     {

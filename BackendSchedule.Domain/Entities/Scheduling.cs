@@ -1,5 +1,5 @@
-﻿using BackendSchedule.Domain.Validation;
-
+﻿using BackendSchedule.Domain.DataStructure;
+using BackendSchedule.Domain.Validation;
 namespace BackendSchedule.Domain.Entities
 {
     public sealed class Scheduling : Entity
