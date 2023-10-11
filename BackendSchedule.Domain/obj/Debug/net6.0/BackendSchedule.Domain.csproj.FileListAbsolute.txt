@@ -1,0 +1,11 @@
+C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.Domain\bin\Debug\net6.0\BackendSchedule.Domain.deps.json
+C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.Domain\bin\Debug\net6.0\BackendSchedule.Domain.dll
+C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.Domain\bin\Debug\net6.0\BackendSchedule.Domain.pdb
+C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.Domain\obj\Debug\net6.0\BackendSchedule.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.Domain\obj\Debug\net6.0\BackendSchedule.Domain.AssemblyInfoInputs.cache
+C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.Domain\obj\Debug\net6.0\BackendSchedule.Domain.AssemblyInfo.cs
+C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.Domain\obj\Debug\net6.0\BackendSchedule.Domain.csproj.CoreCompileInputs.cache
+C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.Domain\obj\Debug\net6.0\BackendSchedule.Domain.dll
+C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.Domain\obj\Debug\net6.0\refint\BackendSchedule.Domain.dll
+C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.Domain\obj\Debug\net6.0\BackendSchedule.Domain.pdb
+C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.Domain\obj\Debug\net6.0\ref\BackendSchedule.Domain.dll
