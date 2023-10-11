@@ -1,11 +1,12 @@
 ﻿using AutoMapper;
 using BackendSchedule.Application.DTOs;
+using BackendSchedule.Application.Interfaces;
 using BackendSchedule.Domain.Entities;
 using BackendSchedule.Domain.Interfaces;
 
 namespace BackendSchedule.Application.Services
 {
-    public class SchedulingService
+    public class SchedulingService : ISchedulingService
     {
         private readonly ISchedulingRepository _schedulingRepository;
         private readonly IMapper _mapper;

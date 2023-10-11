@@ -1,11 +1,12 @@
 ﻿using AutoMapper;
 using BackendSchedule.Application.DTOs;
+using BackendSchedule.Application.Interfaces;
 using BackendSchedule.Domain.Entities;
 using BackendSchedule.Domain.Interfaces;
 
 namespace BackendSchedule.Application.Services
 {
-    public class ProfessionalService
+    public class ProfessionalService : IProfessionalService
     {
         private readonly IProfessionalRepository _professionalRepository;
         private readonly IMapper _mapper;
