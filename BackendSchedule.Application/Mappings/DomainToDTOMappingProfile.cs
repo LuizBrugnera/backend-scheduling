@@ -2,7 +2,7 @@
 using BackendSchedule.Application.DTOs;
 using BackendSchedule.Domain.Entities;
 
-namespace Catalogo.Application.Mappings
+namespace BackendSchedule.Application.Mappings
 {
     public class DomainToDTOMappingProfile : Profile
     {
