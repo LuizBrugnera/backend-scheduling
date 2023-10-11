@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BackendSchedule.Infrastructure.Repositories
 {
-    internal class ProfessionalRepository : IProfessionalRepository
+    public class ProfessionalRepository : IProfessionalRepository
     {
         private ApplicationDbContext _professionalContext;
 

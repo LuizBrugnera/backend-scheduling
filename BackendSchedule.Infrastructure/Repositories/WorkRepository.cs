@@ -4,7 +4,7 @@ using BackendSchedule.Infrastructure.Context;
 using Microsoft.EntityFrameworkCore;
 namespace BackendSchedule.Infrastructure.Repositories
 {
-    internal class WorkRepository : IWorkRepository
+    public class WorkRepository : IWorkRepository
     {
         private ApplicationDbContext _workContext;
 

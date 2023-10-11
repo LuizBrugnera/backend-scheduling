@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BackendSchedule.Infrastructure.Repositories
 {
-    internal class SchedulingRepository : ISchedulingRepository
+    public class SchedulingRepository : ISchedulingRepository
     {
         private ApplicationDbContext _schedulingContext;
 

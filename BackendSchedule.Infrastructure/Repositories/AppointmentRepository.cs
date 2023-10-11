@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BackendSchedule.Infrastructure.Repositories
 {
-    internal class AppointmentRepository : IAppointmentRepository
+    public class AppointmentRepository : IAppointmentRepository
     {
         private ApplicationDbContext _appointmentContext;
 
