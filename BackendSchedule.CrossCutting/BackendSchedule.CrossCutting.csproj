@@ -16,4 +16,8 @@
     <Folder Include="IOC\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MySql.EntityFrameworkCore" Version="5.0.0" />
+  </ItemGroup>
+
 </Project>
