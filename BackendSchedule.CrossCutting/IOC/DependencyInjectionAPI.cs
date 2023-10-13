@@ -15,7 +15,8 @@ namespace BackendSchedule.CrossCutting.IOC
         public static IServiceCollection AddInfrastructureAPI(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseMySQL(configuration.GetConnectionString("DefaultConnection")));
+                options.UseMySql(configuration.GetConnectionString("DefaultConnection"),
+                                new MySqlServerVersion(new Version(8, 0, 34))));
 
             services.AddScoped<ISchedulingRepository, SchedulingRepository>();
             services.AddScoped<IWorkRepository, WorkRepository>();

@@ -9,11 +9,6 @@ C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSch
 C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.API\bin\Debug\net6.0\Azure.Core.dll
 C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.API\bin\Debug\net6.0\Azure.Identity.dll
-C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.API\bin\Debug\net6.0\BouncyCastle.Crypto.dll
-C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.API\bin\Debug\net6.0\Google.Protobuf.dll
-C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.API\bin\Debug\net6.0\K4os.Compression.LZ4.dll
-C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.API\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
-C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.API\bin\Debug\net6.0\K4os.Hash.xxHash.dll
 C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
@@ -40,12 +35,8 @@ C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSch
 C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.API\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
 C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.API\bin\Debug\net6.0\MySql.Data.dll
-C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.API\bin\Debug\net6.0\Ubiety.Dns.Core.dll
-C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.API\bin\Debug\net6.0\Zstandard.Net.dll
-C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.API\bin\Debug\net6.0\MySql.EntityFrameworkCore.dll
-C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.API\bin\Debug\net6.0\Renci.SshNet.dll
-C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.API\bin\Debug\net6.0\SshNet.Security.Cryptography.dll
+C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.API\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.API\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
