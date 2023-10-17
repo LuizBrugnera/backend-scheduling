@@ -5,6 +5,7 @@ namespace BackendSchedule.Domain.Entities
 {
     public sealed class Appointment : Entity
     {
+        public Appointment() { }
         public Appointment(int id, Scheduling scheduling, Work work, TimeSpan startTime, string NameC, string? EmailC, string PhoneC)
         {
             DomainExceptionValidation.When(id < 0, "Invalid Id value");

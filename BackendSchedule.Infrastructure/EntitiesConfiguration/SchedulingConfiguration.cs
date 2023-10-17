@@ -28,12 +28,24 @@ namespace BackendSchedule.Infrastructure.EntitiesConfiguration
                 tp.Property(t => t.StartNight);
                 tp.Property(t => t.EndNight);
             });
-            builder.Property(s => s.WorkDay).IsRequired();
 
+            builder.Property(s => s.WorkDay).IsRequired();
+            builder.Property(s => s.Day).IsRequired();
             // Dados iniciais
             builder.HasData(
-                new Scheduling(new Professional(1, "Jhon Carlos", "jhon@gmail.com", "jhon123", "54996054176"),
-                new TimeSpan(10, 0, 0), new TimeSpan(12, 0, 0), null, null, null, null, true)
+                new
+                {
+                    Id = 1,
+                    ProfessionalId = 1,
+                    StartMorning = new TimeSpan(10, 0, 0),
+                    EndMorning = new TimeSpan(12, 0, 0),
+                    StartAfternoon = (TimeSpan?)null,
+                    EndAfternoon = (TimeSpan?)null,
+                    StartNight = (TimeSpan?)null,
+                    EndNight = (TimeSpan?)null,
+                    WorkDay = true,
+                    Day = new DateTime(2021, 01, 01)
+                }
             );
         }
     }

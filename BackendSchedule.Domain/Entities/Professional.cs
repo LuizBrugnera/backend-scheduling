@@ -4,6 +4,7 @@ namespace BackendSchedule.Domain.Entities
 {
     public sealed class Professional : Entity
     {
+        public Professional() { }
         public Professional(int id, string name, string email, string password, string phone)
         {
             DomainExceptionValidation.When(id < 0, "Invalid Id value");

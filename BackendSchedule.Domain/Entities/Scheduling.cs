@@ -4,16 +4,16 @@ namespace BackendSchedule.Domain.Entities
 {
     public sealed class Scheduling : Entity
     {
-
-        public Scheduling(int id, Professional professional, TimeSpan? startMorning, TimeSpan? endMorning, TimeSpan? startAfternoon, TimeSpan? endAfternoon, TimeSpan? startNight, TimeSpan? endNight, bool workDay)
+        public Scheduling() { }
+        public Scheduling(int id, Professional professional, TimeSpan? startMorning, TimeSpan? endMorning, TimeSpan? startAfternoon, TimeSpan? endAfternoon, TimeSpan? startNight, TimeSpan? endNight, bool workDay, string day)
         {
             DomainExceptionValidation.When(id < 0, "Invalid Id value");
             Id = id;
-            ValidateDomain(professional, startMorning, endMorning, startAfternoon, endAfternoon, startNight, endNight);
+            ValidateDomain(professional, startMorning, endMorning, startAfternoon, endAfternoon, startNight, endNight, workDay, day);
         }
-        public Scheduling(Professional professional, TimeSpan? startMorning, TimeSpan? endMorning, TimeSpan? startAfternoon, TimeSpan? endAfternoon, TimeSpan? startNight, TimeSpan? endNight, bool workDay)
+        public Scheduling(Professional professional, TimeSpan? startMorning, TimeSpan? endMorning, TimeSpan? startAfternoon, TimeSpan? endAfternoon, TimeSpan? startNight, TimeSpan? endNight, bool workDay, string day)
         {
-            ValidateDomain(professional, startMorning, endMorning, startAfternoon, endAfternoon, startNight, endNight);
+            ValidateDomain(professional, startMorning, endMorning, startAfternoon, endAfternoon, startNight, endNight, workDay, day);
         }
 
 
@@ -21,9 +21,10 @@ namespace BackendSchedule.Domain.Entities
         public int ProfessionalId { get; private set; }
         public TimePeriods TimePeriods { get; private set; }
         public bool WorkDay { get; private set; }
+        public DateTime Day { get; private set; }
         public List<Appointment> AppointmentList { get; private set; } = new List<Appointment>();
 
-        private void ValidateDomain(Professional professional, TimeSpan? startMorning, TimeSpan? endMorning, TimeSpan? startAfternoon, TimeSpan? endAfternoon, TimeSpan? startNight, TimeSpan? endNight)
+        private void ValidateDomain(Professional professional, TimeSpan? startMorning, TimeSpan? endMorning, TimeSpan? startAfternoon, TimeSpan? endAfternoon, TimeSpan? startNight, TimeSpan? endNight, bool workDay, string day)
         {
 
             DomainExceptionValidation.When((startMorning == null && endMorning != null) || (startMorning != null && endMorning == null), "Start and End must have valid or null values");
@@ -37,6 +38,8 @@ namespace BackendSchedule.Domain.Entities
             ProfessionalId = professional.Id;
             Professional = professional;
             TimePeriods = new TimePeriods(startMorning, endMorning, startAfternoon, endAfternoon, startNight, endNight);
+            WorkDay = workDay;
+            Day = DateTime.Parse(day);
         }
 
         public void AddAppointment(Appointment appointment)

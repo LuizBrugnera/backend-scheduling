@@ -15,6 +15,10 @@ namespace BackendSchedule.Application.DTOs
         public TimeSpan? EndNight { get; set; }
         [Required(ErrorMessage = "Let us know if it is a business day")]
         public bool WorkDay { get; set; }
+
+        [Required(ErrorMessage = "Enter the day of the appointment")]
+        public DateTime Day { get; set; }
+
         public List<AppointmentDTO> AppointmentList { get; set; } = new List<AppointmentDTO>();
     }
 }

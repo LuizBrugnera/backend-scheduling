@@ -20,9 +20,29 @@ namespace BackendSchedule.Infrastructure.EntitiesConfiguration
                    .OnDelete(DeleteBehavior.Cascade);
 
             builder.HasData(
-              new Work(1, "Corte de Cabelo", new Professional(1, "Jhon Carlos", "jhon@gmail.com", "jhon123", "54996054176"), TimeSpan.FromHours(1), 25.0),
-              new Work(2, "Massagem", new Professional(1, "Jhon Carlos", "jhon@gmail.com", "jhon123", "54996054176"), TimeSpan.FromHours(1.5), 50.0),
-              new Work(3, "Manicure", new Professional(3, "Amado Batista", "batista@gmail.com", "batista123", "21948212432"), TimeSpan.FromMinutes(30), 20.0)
+              new
+              {
+                  Id = 1,
+                  Name = "Corte de Cabelo",
+                  ProfessionalId = 1,
+                  Duration = new TimeSpan(1, 0, 0),
+                  Price = 25.0
+              },
+              new
+              {
+                  Id = 2,
+                  Name = "Massagem",
+                  ProfessionalId = 1,
+                  Duration = new TimeSpan(1, 30, 0),
+                  Price = 50.0
+              },
+              new
+              {
+                  Id = 3,
+                  Name = "Manicure",
+                  ProfessionalId = 3,
+                  Duration = new TimeSpan(0, 30, 0)
+              }
             );
         }
     }

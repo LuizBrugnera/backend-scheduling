@@ -26,9 +26,30 @@ namespace BackendSchedule.Infrastructure.EntitiesConfiguration
                    .OnDelete(DeleteBehavior.Cascade);
 
             builder.HasData(
-              new Professional(1, "Jhon Carlos", "jhon@gmail.com", "jhon123", "54996054176"),
-              new Professional(2, "Ze Da Manga", "damanga@gmail.com", "damanga123", "54943022176"),
-              new Professional(3, "Amado Batista", "batista@gmail.com", "batista123", "21948212432")
+              new
+              {
+                  Id = 1,
+                  Name = "Jhon Carlos",
+                  Email = "jhon@gmail.com",
+                  Password = "jhon123",
+                  Phone = "54996054176"
+              },
+              new
+              {
+                  Id = 2,
+                  Name = "Ze Da Manga",
+                  Email = "damanga@gmail.com",
+                  Password = "damanga123",
+                  Phone = "54943022176"
+              },
+              new
+              {
+                  Id = 3,
+                  Name = "Amado Batista",
+                  Email = "batista@gmail.com",
+                  Password = "batista123",
+                  Phone = "21948212432"
+              }
             );
         }
     }

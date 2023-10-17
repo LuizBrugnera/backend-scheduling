@@ -1,4 +1,5 @@
 C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.Infrastructure\bin\Debug\net6.0\BackendSchedule.Infrastructure.deps.json
+C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.Infrastructure\bin\Debug\net6.0\BackendSchedule.Infrastructure.runtimeconfig.json
 C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.Infrastructure\bin\Debug\net6.0\BackendSchedule.Infrastructure.dll
 C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.Infrastructure\bin\Debug\net6.0\BackendSchedule.Infrastructure.pdb
 C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.Infrastructure\bin\Debug\net6.0\BackendSchedule.Domain.dll
@@ -12,4 +13,5 @@ C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSch
 C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.Infrastructure\obj\Debug\net6.0\BackendSchedule.Infrastructure.dll
 C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.Infrastructure\obj\Debug\net6.0\refint\BackendSchedule.Infrastructure.dll
 C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.Infrastructure\obj\Debug\net6.0\BackendSchedule.Infrastructure.pdb
+C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.Infrastructure\obj\Debug\net6.0\BackendSchedule.Infrastructure.genruntimeconfig.cache
 C:\Users\luizr\OneDrive\Área de Trabalho\csharp-apis\BackendSchedule\BackendSchedule.Infrastructure\obj\Debug\net6.0\ref\BackendSchedule.Infrastructure.dll
